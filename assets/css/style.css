@@ -14,10 +14,25 @@ body {
   width: 1140px;
   margin: 0 auto;
 }
+
+section {
+  padding: 80px 0;
+}
 :root {
   --primary-color: #2c3e50;
   --secondary-color: #96ccd7;
 }
+/*-----------headings---------*/
+h1 {
+  font-size: 240%;
+}
+h2 {
+  font-size: 200%;
+}
+h3 {
+  font-size: 110%;
+}
+
 /*-----------Header---------*/
 header {
   padding: 20px;
@@ -88,4 +103,29 @@ nav ul li:hover::after {
   padding: 10px;
   background-color: #e67e22;
 }
-/*-----------work section---------*/
+/*-----------about me section---------*/
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.flex-item-1 h2 {
+  border-right: 6px solid #e67e22;
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-right: -3px;
+}
+
+.flex-item-1 {
+  width: 30%;
+  position: relative;
+}
+.flex-item-2 {
+  width: 68%;
+  line-height: 1.5;
+}
+.flex-item-2 :first-of-type {
+  margin-bottom: 30px;
+}
