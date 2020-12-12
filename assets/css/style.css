@@ -148,7 +148,7 @@ header h2 {
 }
 .work-header h2 {
   border-right: 6px solid var(--primary-color);
-  height: 90vh;
+  height: 100vh;
   margin-left: 10px;
   padding-right: 30px;
 }
@@ -223,12 +223,15 @@ footer {
 .flex-footer h4 {
   font-size: 100%;
   color: rgb(141, 138, 138);
+  padding-left: 30px;
   border-left: 2px solid var(--primary-color);
   height: 50px;
   padding-left: 20px;
   margin-left: 40px;
+  width: 10%;
 }
 .footer-nav {
+  width: 40%;
   list-style: none;
   display: flex;
   justify-content: flex-end;

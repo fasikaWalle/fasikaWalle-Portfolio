@@ -2,6 +2,9 @@
   body {
     font-size: 18px;
   }
+  .work-header h2 {
+ 
+    height: 110vh;
 }
 /* Small tablet to big tablet: from 768px to 1023px */
 @media screen and (max-width: 1023px) {
@@ -16,11 +19,15 @@
     margin-bottom: 40px;
   }
   .flex-item-1 h2 {
-    height: 30vh;
+    height: 40vh;
   }
   .work-header h2 {
     height: 65vh;
   }
+  .work-header h2 {
+ 
+    height: 120vh;
+}
 }
 
 /* Small phones to small tablets: from 481px to 767px */
