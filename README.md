@@ -21,7 +21,7 @@ this project was designed to show my works.
 
 ### URL of the project
 
-### Github Repo:https:
+### Github Repo:https:https://github.com/fasikaWalle/fasikaWalle-Portfolio
 
 ### Live site URL:
 
