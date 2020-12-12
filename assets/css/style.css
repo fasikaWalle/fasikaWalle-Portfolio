@@ -139,18 +139,17 @@ header h2 {
 .work-container {
   display: flex;
   grid-gap: 30px;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   justify-content: space-between;
 }
 .work-header {
-  width: 16%;
+  width: 20%;
 }
 .work-header h2 {
   border-right: 6px solid var(--primary-color);
   height: 100vh;
-  margin-left: 10px;
-  padding-right: 30px;
+  margin-left: 80px;
 }
 .grid-container {
   display: grid;
@@ -158,6 +157,7 @@ header h2 {
   grid-template-rows: repeat(3, 1fr);
   gap: 10px;
   grid-auto-flow: dense;
+  width: 80%;
 }
 .work-item {
   position: relative;
