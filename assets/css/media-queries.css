@@ -1,0 +1,146 @@
+@media screen and (max-width: 1200px) {
+  body {
+    font-size: 18px;
+  }
+}
+/* Small tablet to big tablet: from 768px to 1023px */
+@media screen and (max-width: 1023px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 40px 0;
+  }
+  nav ul li {
+    display: block;
+    margin-bottom: 40px;
+  }
+  .flex-item-1 h2 {
+    height: 30vh;
+  }
+  .work-header h2 {
+    height: 65vh;
+  }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
+  footer {
+    padding: 20px;
+  }
+  nav ul {
+    margin-right: 0;
+  }
+  nav ul li {
+    margin-bottom: 20px;
+  }
+  nav ul li span {
+    display: none;
+  }
+  header h2 {
+    margin-top: 20px;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+  }
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-item-1 {
+    align-self: center;
+  }
+  .flex-item-1 h2 {
+    border-right: none;
+    height: 12vh;
+  }
+  .flex-item-1 h2 ::after {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 2px;
+    background-color: #e67e22;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .flex-item-1 h2 span {
+    display: inline;
+  }
+  .flex-item-2 {
+    align-self: center;
+  }
+  .work-container {
+    flex-direction: column;
+    width: 90%;
+  }
+  .work-header {
+    align-self: center;
+    width: 160px;
+  }
+  .work-header h2 {
+    border-right: none;
+    height: 10vh;
+  }
+  .work-header h2::after {
+    display: block;
+    content: '';
+    width: 80px;
+    height: 2px;
+    background-color: #e67e22;
+    margin-top: 10px;
+  }
+
+  .grid-container {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 0.5fr);
+  }
+  .work-item {
+    grid-column: 1;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .work-item-1 {
+    grid-row: 1;
+    height: 300px;
+  }
+  .work-item-2 {
+    grid-row: 2;
+    height: 150px;
+  }
+  .work-item-3 {
+    grid-row: 3;
+    height: 160px;
+  }
+  .work-item-4 {
+    grid-row: 4;
+    height: 160px;
+  }
+  .work-item-5 {
+    grid-row: 5;
+    height: 160px;
+  }
+}
+
+/* Small phones: from 0 to 480px */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  footer {
+    padding: 10px;
+  }
+  .flex-footer {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .flex-footer h4 {
+    font-size: 90%;
+    border-left: none;
+  }
+}
