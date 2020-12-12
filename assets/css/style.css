@@ -18,11 +18,10 @@ body {
 }
 
 section {
-  padding: 60px 0;
+  padding: 80px 0;
 }
 :root {
-  --primary-color: #2c3e50;
-  --secondary-color: #96ccd7;
+  --primary-color: #e67e22;
 }
 /*-----------headings---------*/
 h1,
@@ -59,7 +58,7 @@ h1 {
   color: #fff;
 }
 h1::first-letter {
-  color: #e67e22;
+  color: var(--primary-color);
   font-family: cursive;
 }
 nav ul {
@@ -84,7 +83,7 @@ nav ul li a:visited {
 
 nav ul li a:hover,
 nav ul li a:active {
-  border-bottom: 2px solid #e67e22;
+  border-bottom: 2px solid var(--primary-color);
 }
 
 header img {
@@ -110,7 +109,7 @@ header h2 {
 /*-----------about me section---------*/
 .flex-container {
   display: flex;
-  grid-gap: 10px;
+  flex-wrap: wrap;
   width: 90%;
   margin: 0 auto;
   justify-content: space-between;
@@ -121,8 +120,8 @@ header h2 {
   justify-content: flex-end;
 }
 .flex-item-1 h2 {
-  border-right: 6px solid #e67e22;
-  height: 250px;
+  border-right: 6px solid var(--primary-color);
+  height: 40vh;
   padding-right: 20px;
 }
 .flex-item-1 h2 span {
@@ -137,6 +136,22 @@ header h2 {
   margin-bottom: 30px;
 }
 /*-----------work section---------*/
+.work-container {
+  display: flex;
+  grid-gap: 30px;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.work-header {
+  width: 16%;
+}
+.work-header h2 {
+  border-right: 6px solid var(--primary-color);
+  height: 90vh;
+  margin-left: 10px;
+  padding-right: 30px;
+}
 .grid-container {
   display: grid;
   grid-template-columns: repeat(6, 0.5fr);
@@ -193,26 +208,7 @@ header h2 {
   font-size: 110%;
   color: #080808;
 }
-.work-container {
-  display: flex;
-  grid-gap: 30px;
-  width: 80%;
-  margin: 0 auto;
-  justify-content: space-between;
-}
-.work-header {
-  width: 16%;
-}
-.grid-flex-container {
-  width: 90%;
-}
 
-.work-header h2 {
-  border-right: 6px solid #e67e22;
-  height: 90vh;
-  margin-left: 10px;
-  padding-right: 30px;
-}
 /*------footer---------*/
 footer {
   padding: 30px;
@@ -220,22 +216,21 @@ footer {
 }
 .flex-footer {
   display: flex;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
-  width: 650px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .flex-footer h4 {
   font-size: 100%;
   color: rgb(141, 138, 138);
-  border-left: 2px solid #e67e22;
+  border-left: 2px solid var(--primary-color);
   height: 50px;
   padding-left: 20px;
+  margin-left: 40px;
 }
 .footer-nav {
   list-style: none;
   display: flex;
-  width: 40%;
   justify-content: flex-end;
 }
 
@@ -253,7 +248,6 @@ footer {
 .footer-nav li a:visited {
   font-size: 140%;
 }
-
 .ion-social-linkedin,
 .ion-email,
 .ion-social-twitter,
