@@ -4,11 +4,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+html,
 body {
   font-size: 20px;
   font-weight: 300;
   font-family: 'lato', sans-serif;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 .container {
   width: 1140px;
@@ -49,7 +51,6 @@ header {
 .header-container {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
   padding-top: 20px;
   margin-left: 30px;
 }
@@ -109,23 +110,27 @@ header h2 {
 /*-----------about me section---------*/
 .flex-container {
   display: flex;
-  justify-content: space-around;
-  width: 100%;
+  grid-gap: 10px;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.flex-item-1 {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
 }
 .flex-item-1 h2 {
   border-right: 6px solid #e67e22;
   height: 250px;
-  padding-right: 40px;
+  padding-right: 20px;
 }
 .flex-item-1 h2 span {
   display: block;
 }
-.flex-item-1 {
-  width: 25%;
-  text-align: end;
-}
+
 .flex-item-2 {
-  width: 65%;
+  width: 76%;
   line-height: 1.5;
 }
 .flex-item-2 :first-of-type {
@@ -138,7 +143,6 @@ header h2 {
   grid-template-rows: repeat(3, 1fr);
   gap: 10px;
   grid-auto-flow: dense;
-  width: 65%;
 }
 .work-item {
   position: relative;
@@ -191,16 +195,23 @@ header h2 {
 }
 .work-container {
   display: flex;
-  justify-content: space-around;
+  grid-gap: 30px;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 .work-header {
-  width: 25%;
-  text-align: end;
+  width: 16%;
 }
+.grid-flex-container {
+  width: 90%;
+}
+
 .work-header h2 {
   border-right: 6px solid #e67e22;
-  height: 65vh;
-  padding-right: 40px;
+  height: 90vh;
+  margin-left: 10px;
+  padding-right: 30px;
 }
 /*------footer---------*/
 footer {
@@ -209,10 +220,10 @@ footer {
 }
 .flex-footer {
   display: flex;
-  justify-content: space-around;
   width: 80%;
   margin: 0 auto;
-  margin-right: 0px;
+  width: 650px;
+  justify-content: space-between;
 }
 .flex-footer h4 {
   font-size: 100%;
@@ -221,14 +232,11 @@ footer {
   height: 50px;
   padding-left: 20px;
 }
-.flex-container h4 {
-  width: 40%;
-}
-
 .footer-nav {
   list-style: none;
   display: flex;
-  width: 45%;
+  width: 40%;
+  justify-content: flex-end;
 }
 
 .footer-nav li {
