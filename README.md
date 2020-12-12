@@ -48,7 +48,7 @@ The lato font is the main font used throughout the whole website with Sans Serif
 
 ### Hover:
 
-hover was used on the Social Media icons in the footer to add the color ransition while being hovered over.
+hover was used on the Social Media icons in the footer to add the color tansition while being hovered over.
 
 ### Google Fonts:
 
@@ -74,7 +74,7 @@ click the link whick is find in the live site URL
 
 ## Acknowledgements
 
-My Mentor for continuous helpful feedback (Chris Graves & Rukshan Uddin).
+My teachers for continuous helpful feedback (Chris Graves & Rukshan Uddin).
 
 ## License
 
