@@ -23,7 +23,7 @@ this project was designed to show my works.
 
 ### Github Repo:https:https://github.com/fasikaWalle/fasikaWalle-Portfolio
 
-### Live site URL:
+### Live site URL:https://fasikawalle.github.io/fasikaWalle-Portfolio/
 
 ## Technologies used
 
