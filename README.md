@@ -81,7 +81,8 @@ My Mentor for continuous helpful feedback (Chris Graves & Rukshan Uddin).
 copyright (c) 2020 fasika demelash portfolio
 
 ## screenshots
-![fasika-walle-portfolio](https://user-images.githubusercontent.com/73629983/101998965-9ad34080-3c9d-11eb-8b74-16789df38940.png)
+![fasika-walle-portfolio-img](https://user-images.githubusercontent.com/73629983/101998980-c9e9b200-3c9d-11eb-809d-409c3b4c8d2a.png)
+
 
 
 
