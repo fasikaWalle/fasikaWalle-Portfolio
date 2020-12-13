@@ -38,7 +38,7 @@ CSS
 
 ### Colour Scheme
 
-The two main colours used are Code Insititue orange, and black.
+The two main colours used are orange, and black.
 
 ### Typography
 
