@@ -105,8 +105,19 @@ header h2 {
   padding: 10px;
   background-color: rgba(231, 126, 35, 0.79);
   border-radius: 10px;
+  animation-name: animate;
+  animation-duration: 3s;
+  animation-fill-mode: backwards;
+  animation-delay: 1s;
 }
-
+@keyframes animate {
+  from {
+    transform: translate(-1200px);
+  }
+  to {
+    transform: translateX(-200px);
+  }
+}
 /*-----------about me section---------*/
 #about-me {
   padding-bottom: 0;
